@@ -1,0 +1,40 @@
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mainpage/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'mainpage/about_me.css' %}">
+    <title>About me</title>
+</head>
+<body>
+    <ul>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about_me' %}">About Me</a></li>
+        <li><a href="{% url 'education' %}">Education</a></li>
+        <li><a href="#news">Skills</a></li>
+        <li><a href="#news">Portfolio/Projects</a></li>
+        <li><a href="#news">Resume/CV</a></li>
+        <li><a href="#about">Contact</a></li>
+    </ul>
+    <div>
+        <img class="photo" src="https://onedrive.live.com/download?resid=EF200AFD722E7C0B%21325913&authkey=%21AKQjbIp8BENG8KE&width=1434&height=1923" alt="Charalambos Pitris">
+    </div>
+    <div class="about_me">
+        <h1>About Me</h1>
+        <div class="text">
+            <p>My name is Charalambos Pitris. I was born in Cyprus in 1983 in the Nicosia district and grew up in the village of Geri. My parents were refugees from the village of Assia in the Famagusta district after the treacherous coup by the Athens junta and EOKA B and the Turkish invasion in 1974.</p>
+            <p>In my childhood, I attended the B Primary School of Geri and then the Platy Gymnasium in Aglantzia. At the age of 14, I left school and pursued the technical profession of a panel beater until I was 24 years old.</p>
+            <p>Upon completing my military service, I made the decision to pursue my education further by enrolling in night school to attain both my high school and secondary school diplomas. Over the course of 4 years, I diligently balanced my studies at night school with my daytime employment as a panel beater at the BMW dealership.</p>
+            <p>In 2007, I took the nationwide exams and managed to secure a place in the Department of Education Sciences at the University of Cyprus.</p>
+            <p>One semester after graduating from the University of Cyprus, I left for abroad as an economic migrant to the United Kingdom, with the prospect of better employment opportunities.</p>
+            <p>After establishing myself in London, I took on a part-time position at the Greek Orthodox School of the Cypriot Community, where I worked as an hourly employee. Additionally, I undertook a role as a text editor at the Parikiaki newspaper.</p>
+            <p>During my 5-year residency in London, I took on voluntary responsibilities as an organizational coordinator for the 2013 Cypriot presidential elections for AKEL Britain, which resulted in positive outcomes. Some comrades entrusted and nominated me as a candidate for the position of the new organizational secretary of the branch. Following my election, I collaborated with numerous volunteers for the ensuing 4 years to accomplish the branch's objectives. In 2017, I returned to Cyprus and transitioned into self-employment, working within the full-day schools under the Ministry of Education.</p>
+            <p>Up to the present day, I've been pursuing both undergraduate studies in Computer Science and postgraduate studies in Education and Technologies in Distance Teaching and Learning Systems – Educational Sciences (ETA), part-time at the Open University of Greece. Concurrently, as a self-employed individual, I engage in completing projects entrusted to me by clients for website and application development. My expertise lies in Python, Django, HTML5, CSS, and GUI interfaces using Tkinter in Python."</p>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock content %}
