@@ -1,0 +1,41 @@
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mainpage/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'mainpage/skills.css' %}">
+    <title>Skills</title>
+</head>
+<body>
+    <ul>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about_me' %}">About Me</a></li>
+        <li><a href="{% url 'education' %}">Education</a></li>
+        <li><a href="{% url 'skills' %}">Skills</a></li>
+        <li><a href="#news">Resume/CV</a></li>
+        <li><a href="#about">Contact</a></li>
+    </ul>
+    <div class="Skills">
+        <h1>Skills</h1>
+        <div class="text">
+            <li>Primary Education: Comprehensive understanding and hands-on experience in teaching at the primary school level.</li><br></br>
+
+            <li>Python Programming: Proficient in Python, with experience in developing applications and automating tasks.</li><br></br>
+
+            <li>Django: Skilled in using the Django framework for building robust and scalable web applications.</li><br></br>
+
+            <li>HTML & CSS: Competent in creating and styling web pages with HTML and CSS, ensuring responsive and visually appealing designs.</li><br></br>
+
+            <li>Tkinter: Experienced in using Tkinter for developing graphical user interfaces (GUIs) in Python applications.</li><br></br>
+
+            <li>Distance Learning Technologies: Preparing to specialize in educational technologies and distance learning systems, focusing on modern educational sciences and teaching methodologies.</li><br></br><br>
+
+            <li>Adaptability and Lifelong Learning: Demonstrated ability to balance part-time studies with professional responsibilities, showcasing strong time management and commitment to continuous learning.</li><br></br>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock content %}

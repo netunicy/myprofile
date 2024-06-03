@@ -44,7 +44,7 @@ ul {
     list-style-type: none;
     font-size: 25px;
     margin-left: 25px;
-    margin-right: 400px;
+    margin-right: 700px;
     padding: 5px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
@@ -69,10 +69,6 @@ li a:hover:not(.active) {
     color:rgb(0, 0, 0);
 }
   
-.active {
-    background-color: #04AA6D;
-}
-
 .photo {
     position: absolute;
     right: 90px;
