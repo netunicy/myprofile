@@ -2,17 +2,13 @@ import os
 import django_heroku
 from pathlib import Path
 
-
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-with open(os.path.join(BASE_DIR,'secret_key.txt')) as f:
-    SECRET_KEY = f.read().strip()
+SECRET_KEY = 'django-insecure-up4)dy6qby_y#jm$tq4*zlb13pjlua82mklx%n@3smm8au+t1)'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["cpitris-07dacdcb049a.herokuapp.com"]
 
 
 INSTALLED_APPS = [
@@ -120,6 +116,6 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://www.cpnetuni.com', 'https://dimpan-262c2bc684de.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['https://cpitris-07dacdcb049a.herokuapp.com/']
 
 django_heroku.settings(locals())
