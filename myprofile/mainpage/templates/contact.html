@@ -1,0 +1,36 @@
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mainpage/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'mainpage/contact.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about_me' %}">About Me</a></li>
+        <li><a href="{% url 'education' %}">Education</a></li>
+        <li><a href="{% url 'skills' %}">Skills</a></li>
+        <li><a href="https://onedrive.live.com/download?resid=EF200AFD722E7C0B%21325915&authkey=!ALDYvx7Qx7Torp0&em=2">Download CV</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+    <div class="contact">
+        <h1>Contact</h1>
+        <div class="text">
+            <p>Email: <a href="mailto:Cpitris@outlook.com">Cpitris@outlook.com</a><b></b>
+            
+            <p><a href="https://www.facebook.com/charalambos.pitris">Facebook</a></p>
+        
+            <p><a href="https://www.linkedin.com/in/charalambos-pitris-b03512220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedln</a></p>
+            
+            <p>Phone: <a href="tel:0035799899041">00357-99899041</a><b></b>
+        </div>
+    </div>
+    
+</body>
+</html>
+{% endblock content %}
