@@ -4,9 +4,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-up4)dy6qby_y#jm$tq4*zlb13pjlua82mklx%n@3smm8au+t1)'
+SECRET_KEY = 'e1234ce5ba6bd70891011c12d131415aff16bb17eeadbf18b1920d'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["cpitris-07dacdcb049a.herokuapp.com"]
 
