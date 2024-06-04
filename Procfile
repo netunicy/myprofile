@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn education.wsgi
+web: gunicorn myprofile.wsgi
