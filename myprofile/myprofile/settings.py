@@ -8,7 +8,7 @@ SECRET_KEY = 'e1234ce5ba6bd70891011c12d131415aff16bb17eeadbf18b1920d'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["cpitris-07dacdcb049a.herokuapp.com","cpitris.com","www.cpitris.com"]
+ALLOWED_HOSTS = ['127.0.0.1:8000','localhost','cpitris-07dacdcb049a.herokuapp.com','cpitris.com','www.cpitris.com']
 
 
 INSTALLED_APPS = [
@@ -116,6 +116,6 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://cpitris-07dacdcb049a.herokuapp.com/','https://cpitris.com/']
+CSRF_TRUSTED_ORIGINS = ['https://cpitris.com','https://cpitris-07dacdcb049a.herokuapp.com/',]
 
 django_heroku.settings(locals())
