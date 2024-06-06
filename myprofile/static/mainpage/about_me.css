@@ -71,9 +71,9 @@ li a:hover {
   
 .photo {
     position: absolute;
-    right: 90px;
-    top: 230px;
-    height: 250px;
-    width: 250px;
+    right: 50px;
+    top: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
