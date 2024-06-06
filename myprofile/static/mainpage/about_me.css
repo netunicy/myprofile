@@ -74,7 +74,7 @@ li a:hover {
     right: 90px;
     top: 230px;
     height: 250px;
-    width: 170px;
-    border-radius: 100px;
+    width: 250px;
+    border-radius: 50%;
     border: 1px solid;
 }
