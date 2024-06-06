@@ -73,8 +73,8 @@ li a:hover {
     position: absolute;
     right: 90px;
     top: 230px;
-    height: 200px;
-    width: 150px;
-    border-radius: 50px;
+    height: 250px;
+    width: 170px;
+    border-radius: 100px;
     border: 1px solid;
 }
