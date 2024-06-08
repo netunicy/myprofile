@@ -37,16 +37,14 @@ li a:hover {
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
-        height: 97%;
+        height: 96%;
         width:48%;
-        position: absolute;
     }
   }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 70%;
-        width:100%;
-        position: absolute;
+        height: 100%;
+        width:120%;
     }
   }
