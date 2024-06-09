@@ -45,8 +45,9 @@ li a:hover {
         margin-top: 25px;
     }
     h1 {
-        font-size: larger;
+        font-size:20px;
         margin-top: 260px;
+        color: white;
     }
   }
 
