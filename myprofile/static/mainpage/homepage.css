@@ -45,6 +45,9 @@ li a:hover {
     }
     h2 {
         font-family:serif;
+        margin-right: 50px;
+        color: white;
+        border-radius: 1px black;
     }
   }
 
