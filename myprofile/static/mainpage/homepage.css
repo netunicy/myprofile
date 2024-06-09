@@ -45,10 +45,12 @@ li a:hover {
         margin-top: 25px;
     }
     h2 {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         margin-top: 260px;
-        font-size: 18px;
+        font-size: 20px;
         color: white;
+        border:solid;
+
     }
   }
 
