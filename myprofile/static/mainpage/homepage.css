@@ -46,9 +46,9 @@ li a:hover {
     }
     h2 {
         font-family:serif;
-        right: 50px;
+        margin-top: 500px;
+        font-size: 18px;
         color: white;
-        border-radius: 1px black;
     }
   }
 
