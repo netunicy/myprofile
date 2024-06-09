@@ -43,7 +43,10 @@ li a:hover {
     ul {
         margin-left: 25px;
         margin-top: 25px;
+    }
+    h2 {
         font-size: larger;
+        margin-top: 260px;
     }
   }
 
