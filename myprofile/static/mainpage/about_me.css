@@ -87,18 +87,17 @@ li a:hover {
     ul {
         margin-left: 25px;
         margin-top: 25px;
-        width: 50%;
+        font-size: 16px;
     }
     .text {
-        text-align: justify;
         font-size: 16px;
         margin-left: 10px;
         margin-right: 10px;
     }
     .photo {
         position: absolute;
-        right: 10px;
-        top: 50px;
+        right: 20px;
+        top: 150px;
         height: 100px;
         width: 100px;
     }
