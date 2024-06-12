@@ -103,6 +103,9 @@ li a:hover {
         height: 100px;
         width: 100px;
     }
+    li a {
+        padding: 6px 8px;
+    }
     
   }
 
