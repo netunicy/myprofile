@@ -83,6 +83,12 @@ li a:hover {
     body {
         background-size: contain;
     }
+
+    html {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
     
     .about_me {
         margin: 20px;
@@ -95,9 +101,9 @@ li a:hover {
     
     .text {
         font-size: 16px;
-        margin: 20px;
-        margin-right: 20px;
-        padding: 15px;
+        margin: 10px;
+        margin-right: 10px;
+        padding: 8px;
     }
     
     ul {
