@@ -94,6 +94,13 @@ li a:hover {
         font-size: 16px;
         padding: 50%;
     }
+    .photo {
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        height: 100px;
+        width: 100px;
+    }
     
   }
 
