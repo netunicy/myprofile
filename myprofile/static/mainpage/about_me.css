@@ -85,13 +85,13 @@ li a:hover {
     }
 
     html {
-        height: auto;
-        width: 100%;
+        height: 300;
+        width: 70%;
         margin: 0;
     }
     
     .about_me {
-        margin: 20px;
+        margin: 10px;
     }
     
     h1 {
