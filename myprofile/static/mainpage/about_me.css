@@ -89,7 +89,9 @@ li a:hover {
         margin-top: 25px;
     }
     .text {
-        padding: 10px;
+        text-align: justify;
+        font-size: 16px;
+        padding: 50%;
     }
     
   }
