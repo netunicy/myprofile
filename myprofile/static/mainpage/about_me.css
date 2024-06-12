@@ -86,7 +86,7 @@ li a:hover {
     }
     .photo{
         right: 25px;
-        top: 100px;
+        top: 600px;
         height: 100px;
         width: 100px;
     }
@@ -94,6 +94,9 @@ li a:hover {
         font-size: 18px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    li a {
+        padding: 2px 4px;
     }
 }
 
