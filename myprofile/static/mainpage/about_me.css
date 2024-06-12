@@ -87,6 +87,7 @@ li a:hover {
     ul {
         margin-left: 25px;
         margin-top: 25px;
+        width: 50%;
     }
     .text {
         text-align: justify;
