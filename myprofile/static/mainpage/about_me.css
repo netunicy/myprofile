@@ -91,9 +91,9 @@ li a:hover {
         width: 100px;
     }
     ul {
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     li a {
         padding: 2px 4px;
