@@ -84,20 +84,14 @@ li a:hover {
         height: 100%;
         width:54%;
     }
-    .navbar {
-        list-style-type: none;
-        margin-left: 10px;
-        margin-top: 10px;
-        font-size: 18px;
-        padding: 0;
-        width: 100px;
-    }
     .photo{
         right: 25px;
         top: 100px;
         height: 100px;
         width: 100px;
-
+    }
+    .navbar {
+        font-size: 18px;
     }
 }
 
