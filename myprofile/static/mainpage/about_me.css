@@ -92,7 +92,8 @@ li a:hover {
     .text {
         text-align: justify;
         font-size: 16px;
-        padding: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .photo {
         position: absolute;
