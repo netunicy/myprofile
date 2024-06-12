@@ -84,43 +84,14 @@ li a:hover {
         height: 100%;
         width:54%;
     }
-    ul {
-        font-size: 14px;
+    .navbar {
+        list-style-type: none;
         margin-left: 10px;
-        margin-top: 25px;
-        margin-right: 5px;
-        padding: 2px;
-    }
-    .text {
-        font-size: 16px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .photo {
-        position: absolute;
-        right: 20px;
-        top: 150px;
-        height: 100px;
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 0;
         width: 100px;
     }
-    li a {
-        padding: 2px 4px;
-    }
-    .about_me {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        
-    }
-    h1 {
-        font-size: 25px;
-    }
-    
-  }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {

@@ -10,14 +10,16 @@
     <title>About me</title>
 </head>
 <body>
-    <ul>
-        <li><a href="{% url 'home' %}">Home</a></li>
-        <li><a href="{% url 'about_me' %}">About Me</a></li>
-        <li><a href="{% url 'education' %}">Education</a></li>
-        <li><a href="{% url 'skills' %}">Skills</a></li>
-        <li><a href="https://onedrive.live.com/download?resid=EF200AFD722E7C0B%21325915&authkey=!ALDYvx7Qx7Torp0&em=2">Download CV</a></li>
-        <li><a href="{% url 'contact' %}">Contact</a></li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about_me' %}">About Me</a></li>
+            <li><a href="{% url 'education' %}">Education</a></li>
+            <li><a href="{% url 'skills' %}">Skills</a></li>
+            <li><a href="https://onedrive.live.com/download?resid=EF200AFD722E7C0B%21325915&authkey=!ALDYvx7Qx7Torp0&em=2">Download CV</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </div>
     <div>
         <img class="photo" src="https://onedrive.live.com/download?resid=EF200AFD722E7C0B%21325922&authkey=%21AGw4ZWeoPkY3jLM&width=678&height=677" alt="Charalambos Pitris">
     </div>
