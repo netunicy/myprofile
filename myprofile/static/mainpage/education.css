@@ -44,6 +44,7 @@ li a:hover:not(.active) {
 
 
 h1 {
+    margin-top: 25px;
     font-size: 35px;
     margin-left: 10px;
 }
@@ -88,10 +89,10 @@ p {
 
     .text {
         font-size: 16px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: auto;
-        padding-bottom: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 8px;
+        padding-bottom: 25px;
     }
 
     p {
