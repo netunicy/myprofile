@@ -85,13 +85,9 @@ p {
     }
 
     ul {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-    }
-    li {
-        width: auto;
-        display: inline;
+        font-size: 18px;
+        margin: 15px;
+        margin-right: 20px;
     }
 
     li a {
