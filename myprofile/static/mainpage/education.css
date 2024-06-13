@@ -27,7 +27,7 @@ ul {
   
 li {
     float: left;
-    margin: 4px 6px;
+    margin: 4px 0;
 }
   
 li a {
