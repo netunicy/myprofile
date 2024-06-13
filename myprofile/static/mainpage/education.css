@@ -25,8 +25,10 @@ ul {
     border-radius: 10px;
 }
   
-li {
+#li {
     float: left;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
   
 li a {
