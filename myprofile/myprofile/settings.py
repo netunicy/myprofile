@@ -116,6 +116,6 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://cpitris.com','https://cpitris-07dacdcb049a.herokuapp.com/',]
+CSRF_TRUSTED_ORIGINS = ['https://www.cpitris.com','https://cpitris-07dacdcb049a.herokuapp.com/',]
 
 django_heroku.settings(locals())
