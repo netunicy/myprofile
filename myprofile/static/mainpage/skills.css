@@ -7,9 +7,32 @@ body {
 }
 
 html {
-    height: 220%;
+    height: 190%;
     width:100%;
     margin: 0;
+}
+
+
+h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
 }
 
 ul {
@@ -32,48 +55,17 @@ li {
 li a {
     display: block;
     color: #000;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
   
-li a:hover:not(.active) {
+li a:hover {
     opacity: 0.5;
     color:rgb(0, 0, 0);
 }
+  
 
-
-h1 {
-    font-size: 35px;
-    margin-left: 20px;
-    
-}
-
-.text {
-    text-align: justify;
-    background-color: white;
-    line-height: 1.5;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    border-radius: 10px;
-    opacity: 0.7;
-    font-size: 25px;
-}
-
-p {
-    font-size: 25px;
-}
-
-b {
-    font-size: 27px;
-}
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
@@ -81,31 +73,33 @@ b {
         width: auto;
         margin: 0;
     }
-
+    
+    h1 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    
+    .text {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    
     ul {
         font-size: 18px;
         margin: 15px;
         margin-right: 20px;
     }
+    
+}
 
-    h1 {
-        font-size: 25px;
-        margin-left: 10px;
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    html {
+        height: 130%;
+        width:120%;
     }
-
-    .text {
-        font-size: 16px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        padding: 5px;
-        width: 335px;
-        height: 530px;
-    }
-
-    p {
-        font-size: 20px;
+    ul {
+        margin-left: 25px;
     }
 }
