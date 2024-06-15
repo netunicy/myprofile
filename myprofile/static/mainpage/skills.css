@@ -42,25 +42,20 @@ li a:hover:not(.active) {
     color:rgb(0, 0, 0);
 }
 
-.Skills {
-    margin-left: 30px;
-    
-    
-}
 
 h1 {
     font-size: 35px;
-    margin-left: 30px;
+    margin-left: 20px;
     
 }
 
 .text {
     background-color: white;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 20px;
     margin-top: 50px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
