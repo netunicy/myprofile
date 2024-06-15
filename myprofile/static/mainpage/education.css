@@ -57,7 +57,7 @@ h1 {
     margin-left: 20px;
     margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
-    width: 900px;
+    width: 1000px;
     height: 500px;
     padding-left: 20px;
     padding-top: 10px;
@@ -96,8 +96,8 @@ p {
         padding-left: 10px;
         padding-bottom: 25px;
         padding: 5px;
-        width: 290px;
-        height: 500px;
+        width: auto;
+        height: auto;
     }
 
     p {
