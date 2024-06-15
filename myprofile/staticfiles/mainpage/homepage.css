@@ -34,4 +34,25 @@ li a:hover {
     opacity: 0.5;
     color:rgb(0, 0, 0);
 }
-  
+
+@media only screen and (max-width: 500px) and (min-width: 280px) {
+    html {
+        height: 100%;
+        width:54%;
+    }
+    ul {
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    
+  }
+
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    html {
+        height: 130%;
+        width:120%;
+    }
+    ul {
+        margin-left: 25px;
+    }
+  }

@@ -7,36 +7,9 @@ body {
 }
 
 html {
-    height: 160%;
+    height: 100%;
     width:100%;
     margin: 0;
-}
-
-.about_me {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
-    text-align: justify;
-    
-}
-
-h1 {
-    font-size: 35px;
-    margin-left: 10px;
-}
-
-.text {
-    line-height: 1.5;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-right: 300px;
-    background-color: rgb(255, 255, 255);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    opacity: 0.7;
 }
 
 ul {
@@ -64,17 +37,38 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+li a:hover:not(.active) {
     opacity: 0.5;
     color:rgb(0, 0, 0);
 }
-  
-.photo {
-    position: absolute;
-    right: 90px;
-    top: 230px;
-    height: 200px;
-    width: 150px;
+
+.contact {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    text-align: justify;
+    
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.text {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
     border-radius: 10px;
-    border: 1px solid;
+    opacity: 0.7;
+}
+
+p {
+    font-size: 25px;
 }
