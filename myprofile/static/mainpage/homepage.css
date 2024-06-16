@@ -66,6 +66,7 @@ li a:hover {
         width: 80%;
         height: auto;
         padding: 5px;
+        background-color: rgb(119, 120, 120);
     }
     
   }
@@ -82,5 +83,7 @@ li a:hover {
         font-size: 25px;
         top: 40px;
         right: 25px;
+        height: auto;
+        width: auto;
     }
   }
