@@ -39,8 +39,8 @@ li a:hover {
     position: absolute;
     text-align: center;
     padding-top: 10px;
-    margin-top: 25px;
-    margin-right: 100px;
+    top: 25px;
+    right: 100px;
     font-size: 45px;
     color: white;
     background-color: rgb(138, 138, 138);
@@ -80,12 +80,11 @@ li a:hover {
         margin-left: 25px;
     }
     .welcome-text {
-        font-size: 25px;
-        top: 50px;
-        left: 220px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        font-size: 36px; /* Adjusted font size for medium screens */
+        top: 20px; /* Adjusted top position */
+        right: 50px; /* Adjusted right position */
+        width: 70%; /* Adjusted width for medium screens */
+        height: auto; /* Allow height to adjust automatically */
+        padding: 8px; /* Adjusted padding for medium screens */
     }
   }
