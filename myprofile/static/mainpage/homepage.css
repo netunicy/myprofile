@@ -61,7 +61,7 @@ li a:hover {
     }
     .welcome-text {
         font-size: 24px;
-        top: 300px;
+        top: 520px;
         right: 30px;
         width: 80%;
         height: auto;
@@ -82,7 +82,5 @@ li a:hover {
         font-size: 30px;
         top: 40px;
         right: 25px;
-        width: 70%;
-        height: auto;
     }
   }
