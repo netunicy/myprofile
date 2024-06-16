@@ -82,7 +82,7 @@ li a:hover {
     .welcome-text {
         font-size: 30px; /* Adjusted font size for medium screens */
         top: 20px; /* Adjusted top position */
-        left: 400px; /* Adjusted right position */
+        left: 350px; /* Adjusted right position */
         width: 70%; /* Adjusted width for medium screens */
         height: auto; /* Allow height to adjust automatically */
         padding: 8px; /* Adjusted padding for medium screens */
