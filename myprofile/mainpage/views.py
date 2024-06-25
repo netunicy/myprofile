@@ -3,36 +3,46 @@ from django.shortcuts import render
 from django.template import loader
 
 def homepage(request):
-  visitor += 1
+  visitor= 0
+  total=visitor+1
+  count+=total
   context = {
-        'viewer': visitor,
+        'viewer':  count,
     }
   return render(request, "homepage.html", context)
 
 def about_me(request):
-  visitor += 1
+  visitor= 0
+  total=visitor+1
+  count+=total
   context = {
-        'viewer': visitor,
+        'viewer':  count,
     }
   return render(request, "about_me.html", context)
 
 def education(request):
-  visitor += 1
+  visitor= 0
+  total=visitor+1
+  count+=total
   context = {
-        'viewer': visitor,
+        'viewer':  count,
     }
   return render(request, "education.html", context)
 
 def skills(request):
-  visitor += 1
+ visitor= 0
+  total=visitor+1
+  count+=total
   context = {
-        'viewer': visitor,
+        'viewer':  count,
     }
   return render(request, "skills.html", context)
 
 def contact(request):
-  visitor += 1
+  visitor= 0
+  total=visitor+1
+  count+=total
   context = {
-        'viewer': visitor,
+        'viewer':  count,
     }
   return render(request, "contact.html", context)
