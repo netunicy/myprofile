@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: 90%;
+    height: 80%;
     width:100%;
     margin: 0;
 }
@@ -146,7 +146,7 @@ p {
     }
     #viwer {
         left: 14px;
-        top: auto;
+        top: 300px;
         font-size: 16px;
     }
 
