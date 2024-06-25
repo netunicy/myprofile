@@ -7,9 +7,32 @@ body {
 }
 
 html {
-    height: auto;
+    height: 190%;
     width:100%;
     margin: 0;
+}
+
+
+h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
 }
 
 ul {
@@ -32,47 +55,24 @@ li {
 li a {
     display: block;
     color: #000;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
   
-li a:hover:not(.active) {
+li a:hover {
     opacity: 0.5;
     color:rgb(0, 0, 0);
 }
-
-
-h1 {
-    font-size: 35px;
-    margin-left: 20px;
-    
-}
-
-.text {
-    text-align: justify;
+  
+#viwer {
+    left: 25px;
+    top: 1300px;
+    position: absolute;
     background-color: white;
-    line-height: 1.5;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    border-radius: 10px;
-    opacity: 0.7;
-    font-size: 25px;
-}
-
-p {
-    font-size: 25px;
-}
-
-b {
-    font-size: 27px;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
@@ -81,31 +81,59 @@ b {
         width: auto;
         margin: 0;
     }
-
+    
+    h1 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    
+    .text {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    
     ul {
         font-size: 18px;
         margin: 15px;
         margin-right: 20px;
     }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
+    }
+    
+}
 
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    html {
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    
     h1 {
-        font-size: 25px;
+        font-size: 30px;
         margin-left: 10px;
     }
-
+    
     .text {
-        font-size: 16px;
+        font-size: 18px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        padding: 5px;
-        width: 335px;
-        height: 530px;
+        padding: 10px;
     }
-
-    p {
+    
+    ul {
         font-size: 20px;
+        margin: 20px;
+        margin-right: 25px;
+    }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
     }
 }

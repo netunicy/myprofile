@@ -7,14 +7,14 @@ body {
 }
 
 html {
-    height: 190%;
+    height: 210%;
     width:100%;
     margin: 0;
 }
 
 
 h1 {
-    margin-top: 25px;
+    margin-top: 35px;
     font-size: 35px;
     margin-left: 20px;
 }
@@ -75,6 +75,16 @@ li a:hover {
     border: 1px solid;
 }
 
+#viwer {
+    left: 25px;
+    top: 1450px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
         height: auto;
@@ -82,9 +92,6 @@ li a:hover {
         margin: 0;
     }
     
-    .about_me {
-        margin: 5px;
-    }
     
     h1 {
         font-size: 25px;
@@ -113,14 +120,50 @@ li a:hover {
         margin: 20px auto;
         display: block;
     }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 130%;
-        width:120%;
+        height: auto;
+        width: auto;
+        margin: 0;
     }
+    
+    h1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
+    .text {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    
     ul {
-        margin-left: 25px;
+        font-size: 20px;
+        margin: 20px;
+        margin-right: 25px;
+    }
+    
+    .photo {
+        position: relative;
+        right: auto;
+        top: auto;
+        height: 200px;
+        width: 200px;
+        margin: 30px auto;
+        display: block;
+    }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
     }
 }

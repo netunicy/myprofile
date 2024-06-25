@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: auto;
+    height: 120%;
     width:100%;
     margin: 0;
 }
@@ -44,37 +44,42 @@ li a:hover:not(.active) {
 
 
 h1 {
+    margin-top: 35px;
     font-size: 35px;
     margin-left: 20px;
-    
 }
 
 .text {
     text-align: justify;
-    background-color: white;
     line-height: 1.5;
     font-size: 20px;
-    margin-left: 20px;
+    margin-top: 25px;
     margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 500px;
     padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: auto;
     padding-top: 10px;
     padding-bottom: 25px;
     border-radius: 10px;
     opacity: 0.7;
-    font-size: 25px;
 }
 
 p {
     font-size: 25px;
 }
 
-b {
-    font-size: 27px;
+#viwer {
+    left: 25px;
+    top: 750px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
 }
-
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
         height: auto;
@@ -108,4 +113,41 @@ b {
     p {
         font-size: 20px;
     }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    html {
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
+    .text {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    
+    ul {
+        font-size: 20px;
+        margin: 20px;
+        margin-right: 25px;
+    }
+    #viewer {
+        left: auto;
+        top: auto;
+        font-size: 16px;
+    }
+    
 }
