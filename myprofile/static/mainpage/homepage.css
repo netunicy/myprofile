@@ -77,7 +77,7 @@ li a:hover {
         padding: 5px;
         background-color: rgb(119, 120, 120);
     }
-    #viewer {
+    #viwer {
         left: auto;
         top: auto;
         font-size: 16px;
@@ -101,7 +101,7 @@ li a:hover {
         height: auto; /* Allow height to adjust automatically */
         padding: 8px; /* Adjusted padding for medium screens */
     }
-    #viewer {
+    #viwer {
         left: auto;
         top: auto;
         font-size: 16px;
