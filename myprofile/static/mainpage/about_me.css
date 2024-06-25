@@ -130,7 +130,7 @@ li a:hover {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 420%;
+        height: 550%;
         width: auto;
         margin: 0;
     }
