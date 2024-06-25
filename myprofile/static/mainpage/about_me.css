@@ -122,8 +122,10 @@ li a:hover {
     }
     #viewer {
         left: 10px;
-        top: 1600;
-        font-size: 16px;
+        top: auto; 
+        padding: 8px;
+        font-size: 14px;
+        width: calc(100% - 20px);
     }
 }
 
