@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: 90%;
+    height: 80%;
     width:100%;
     margin: 0;
 }
@@ -47,6 +47,7 @@ h1 {
     margin-top: 35px;
     font-size: 35px;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .text {
@@ -73,7 +74,7 @@ p {
 
 #viwer {
     left: 25px;
-    top: 550px;
+    top: 600px;
     position: absolute;
     background-color: white;
     color: black;
@@ -113,16 +114,16 @@ p {
     p {
         font-size: 20px;
     }
-    #viewer {
-        left: auto;
-        top: auto;
+    #viwer {
+        left: 14px;
+        top: 600px;
         font-size: 16px;
     }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: auto;
+        height: 205%;
         width: auto;
         margin: 0;
     }
@@ -144,9 +145,9 @@ p {
         margin: 20px;
         margin-right: 25px;
     }
-    #viewer {
-        left: auto;
-        top: auto;
+    #viwer {
+        left: 16px;
+        top: 550px;
         font-size: 16px;
     }
 

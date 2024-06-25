@@ -82,7 +82,7 @@ p {
 }
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
-        height: auto;
+        height: 118%;
         width: auto;
         margin: 0;
     }
@@ -113,16 +113,16 @@ p {
     p {
         font-size: 20px;
     }
-    #viewer {
-        left: auto;
-        top: auto;
+    #viwer {
+        left: 14px;
+        top:750px;
         font-size: 16px;
     }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: auto;
+        height: 260%;
         width: auto;
         margin: 0;
     }
@@ -144,9 +144,9 @@ p {
         margin: 20px;
         margin-right: 25px;
     }
-    #viewer {
-        left: auto;
-        top: auto;
+    #viwer {
+        left: 14px;
+        top: 700px;
         font-size: 16px;
     }
     
