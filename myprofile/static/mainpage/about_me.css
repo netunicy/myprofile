@@ -123,8 +123,9 @@ li a:hover {
     }
     #viwer {
         left: 10px;
-        top: 400px;
+        top: 380px;
         font-size: 16px;
+        padding: 5px;
     }
 }
 
