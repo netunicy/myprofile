@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
+from django.core.cache import cache
 
 view_counts = {
   'homepage': 0,
@@ -11,36 +12,42 @@ view_counts = {
 }
 
 def homepage(request):
-  view_counts['homepage'] += 1
+  count = cache.get_or_set('homepage_count', 0)
+  cache.set('homepage_count', count + 1)
+    
   context = {
-    'viewer': view_counts['homepage'],
+    'viewer': count + 1,
   }
   return render(request, "homepage.html",context)
 
 def about_me(request):
-  view_counts['about_me'] += 1
+  count = cache.get_or_set('about_me_count', 0)
+  cache.set('about_me_count', count + 1)
   context = {
-    'viewer': view_counts['about_me'],
+    'viewer': count + 1,
   }
   return render(request, "about_me.html",context)
 
 def education(request):
-  view_counts['education'] += 1
+  count = cache.get_or_set('education_count', 0)
+  cache.set('education_count', count + 1)
   context = {
-    'viewer': view_counts['education'],
+    'viewer': count + 1,
   }
   return render(request, "education.html",context)
 
 def skills(request):
-  view_counts['skills'] += 1
+  count = cache.get_or_set('skills_count', 0)
+  cache.set('skills_count', count + 1)
   context = {
-    'viewer': view_counts['skills'],
+    'viewer': count + 1,
   }
   return render(request, "skills.html",context)
 
 def contact(request):
-  view_counts['contact'] += 1
+  count = cache.get_or_set('contact_count', 0)
+  cache.set('contact_count', count + 1)
   context = {
-    'viewer': view_counts['contact'],
+    'viewer': count + 1,
   }
   return render(request, "contact.html",context)
