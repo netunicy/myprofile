@@ -3,13 +3,15 @@ from django.shortcuts import render
 from django.template import loader
 
 def homepage(request):
-  viewer=viewer+1
+  visitor=0
+  viewer=visitor+1
   context = {
         'viewer': viewer,
     }
   return render(request, "homepage.html", context)
 
 def about_me(request):
+  visitor=0
   viewer=viewer+1
   context = {
         'viewer': viewer,
@@ -17,6 +19,7 @@ def about_me(request):
   return render(request, "about_me.html", context)
 
 def education(request):
+  visitor=0
   viewer=viewer+1
   context = {
         'viewer': viewer,
@@ -24,6 +27,7 @@ def education(request):
   return render(request, "education.html", context)
 
 def skills(request):
+  visitor=0
   viewer=viewer+1
   context = {
         'viewer': viewer,
@@ -31,6 +35,7 @@ def skills(request):
   return render(request, "skills.html", context)
 
 def contact(request):
+  visitor=0
   viewer=viewer+1
   context = {
         'viewer': viewer,
