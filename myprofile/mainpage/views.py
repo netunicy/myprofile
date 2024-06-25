@@ -3,16 +3,46 @@ from django.shortcuts import render
 from django.template import loader
 
 def homepage(request):
-  return render(request, "homepage.html")
+  count = request.session.get('count', 0)
+  count += 1
+  request.session['count'] = count
+  context = {
+    'viewer': count,
+  }
+  return render(request, "homepage.html",context)
 
 def about_me(request):
-  return render(request, "about_me.html")
+  count = request.session.get('count', 0)
+  count += 1
+  request.session['count'] = count
+  context = {
+    'viewer': count,
+  }
+  return render(request, "about_me.html",context)
 
 def education(request):
-  return render(request, "education.html")
+  count = request.session.get('count', 0)
+  count += 1
+  request.session['count'] = count
+  context = {
+    'viewer': count,
+  }
+  return render(request, "education.html",context)
 
 def skills(request):
-  return render(request, "skills.html")
+  count = request.session.get('count', 0)
+  count += 1
+  request.session['count'] = count
+  context = {
+    'viewer': count,
+  }
+  return render(request, "skills.html",context)
 
 def contact(request):
-  return render(request, "contact.html")
+  count = request.session.get('count', 0)
+  count += 1
+  request.session['count'] = count
+  context = {
+    'viewer': count,
+  }
+  return render(request, "contact.html",context)

@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: 200%;
+    height: 210%;
     width:100%;
     margin: 0;
 }
@@ -75,6 +75,16 @@ li a:hover {
     border: 1px solid;
 }
 
+#viwer {
+    left: 25px;
+    top: 1450px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
         height: auto;
@@ -109,6 +119,13 @@ li a:hover {
         width: 150px;
         margin: 20px auto;
         display: block;
+    }
+    #viewer {
+        left: 10px;
+        top: 1200px;
+        padding: 8px;
+        font-size: 14px;
+        width: calc(100% - 20px);
     }
 }
 
@@ -145,5 +162,12 @@ li a:hover {
         width: 200px;
         margin: 30px auto;
         display: block;
+    }
+    #viewer {
+        left: 15px;
+        top: 1300px;
+        padding: 12px;
+        font-size: 16px;
+        width: calc(100% - 30px);
     }
 }

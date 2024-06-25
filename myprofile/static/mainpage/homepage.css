@@ -38,7 +38,6 @@ li a:hover {
 .welcome-text {
     position: absolute;
     text-align: center;
-    padding-top: 10px;
     top: 25px;
     right: 100px;
     font-size: 45px;
@@ -46,10 +45,18 @@ li a:hover {
     background-color: rgb(138, 138, 138);
     opacity: 0.5;
     border-radius: 10px;
-    height: 9%;
+    height: 7%;
     width: 60%;
 }
-
+#viwer {
+    left: 50px;
+    top: 650px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
         height: 100%;
@@ -67,6 +74,13 @@ li a:hover {
         height: auto;
         padding: 5px;
         background-color: rgb(119, 120, 120);
+    }
+    #viewer {
+        left: 10px;
+        top: 1200px;
+        padding: 8px;
+        font-size: 14px;
+        width: calc(100% - 20px);
     }
     
   }
@@ -86,5 +100,12 @@ li a:hover {
         width: 70%; /* Adjusted width for medium screens */
         height: auto; /* Allow height to adjust automatically */
         padding: 8px; /* Adjusted padding for medium screens */
+    }
+    #viewer {
+        left: 15px;
+        top: 1300px;
+        padding: 12px;
+        font-size: 16px;
+        width: calc(100% - 30px);
     }
   }
