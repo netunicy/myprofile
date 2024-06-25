@@ -121,8 +121,8 @@ li a:hover {
         display: block;
     }
     #viewer {
-        left: auto;
-        top: auto;
+        left: 10px;
+        top: 1600;
         font-size: 16px;
     }
 }
