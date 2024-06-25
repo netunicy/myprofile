@@ -38,6 +38,8 @@ li a:hover {
 .welcome-text {
     position: absolute;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
     top: 25px;
     right: 100px;
     font-size: 45px;
