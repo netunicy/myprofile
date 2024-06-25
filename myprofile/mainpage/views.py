@@ -2,47 +2,57 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
 
+homepage = {
+    'homepage': 0
+}
+
+about_me = {
+    'about_me': 0
+}
+
+education = {
+    'education': 0
+}
+
+skills = {
+    'skills': 0
+}
+
+contact = {
+    'contact': 0
+}
+
 def homepage(request):
-  count = request.session.get('count', 0)
-  count += 1
-  request.session['count'] = count
+  homepage['homepage'] += 1
   context = {
-    'viewer': count,
+    'viewer': homepage['homepage'],
   }
   return render(request, "homepage.html",context)
 
 def about_me(request):
-  count = request.session.get('count', 0)
-  count += 1
-  request.session['count'] = count
+  about_me['about_me'] += 1
   context = {
-    'viewer': count,
+    'viewer': about_me['about_me'],
   }
   return render(request, "about_me.html",context)
 
 def education(request):
-  count = request.session.get('count', 0)
-  count += 1
-  request.session['count'] = count
+  education['education'] += 1
   context = {
-    'viewer': count,
+    'viewer': education['education'],
   }
   return render(request, "education.html",context)
 
 def skills(request):
-  count = request.session.get('count', 0)
-  count += 1
-  request.session['count'] = count
+  skills['skills'] += 1
   context = {
-    'viewer': count,
+    'viewer': skills['skills'],
   }
   return render(request, "skills.html",context)
 
 def contact(request):
-  count = request.session.get('count', 0)
-  count += 1
-  request.session['count'] = count
+  contact['contact'] += 1
   context = {
-    'viewer': count,
+    'viewer': contact['contact'],
   }
   return render(request, "contact.html",context)
