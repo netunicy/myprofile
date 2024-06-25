@@ -30,7 +30,7 @@ def education(request):
   return render(request, "education.html", context)
 
 def skills(request):
- visitor= 0
+  visitor= 0
   total=visitor+1
   count+=total
   context = {
