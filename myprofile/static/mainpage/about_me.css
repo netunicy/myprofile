@@ -131,7 +131,7 @@ li a:hover {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 300%;
+        height: 420%;
         width: auto;
         margin: 0;
     }
@@ -164,7 +164,7 @@ li a:hover {
         display: block;
     }
     #viwer {
-        left: auto;
+        left: 12px;
         top: auto;
         font-size: 16px;
     }
