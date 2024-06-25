@@ -78,7 +78,7 @@ li a:hover {
         background-color: rgb(119, 120, 120);
     }
     #viwer {
-        left: 30px;
+        left: 45px;
         top: auto;
         font-size: 16px;
     }
@@ -87,19 +87,19 @@ li a:hover {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 100%;
-        width:100%;
+        height: auto;
+        width:auto;
     }
     ul {
         margin-left: 25px;
     }
     .welcome-text {
-        font-size: 30px; /* Adjusted font size for medium screens */
-        top: 20px; /* Adjusted top position */
-        left: 320px; /* Adjusted right position */
-        width: 70%; /* Adjusted width for medium screens */
-        height: auto; /* Allow height to adjust automatically */
-        padding: 8px; /* Adjusted padding for medium screens */
+        font-size: 18px;
+        top: 20px;
+        left: 320px;
+        width: auto;
+        height: auto;
+        padding: 8px;
     }
     #viwer {
         left: 30px;
