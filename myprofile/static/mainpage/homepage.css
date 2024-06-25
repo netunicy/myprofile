@@ -78,7 +78,7 @@ li a:hover {
         background-color: rgb(119, 120, 120);
     }
     #viwer {
-        left: auto;
+        left: 30px;
         top: auto;
         font-size: 16px;
     }
@@ -87,8 +87,8 @@ li a:hover {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: auto;
-        width:auto;
+        height: 100%;
+        width:100%;
     }
     ul {
         margin-left: 25px;
@@ -102,8 +102,7 @@ li a:hover {
         padding: 8px; /* Adjusted padding for medium screens */
     }
     #viwer {
-        left: auto;
-        top: auto;
+        left: 30px;
         font-size: 16px;
     }
   }
