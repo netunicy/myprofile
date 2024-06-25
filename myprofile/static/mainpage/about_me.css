@@ -120,10 +120,9 @@ li a:hover {
         margin: 20px auto;
         display: block;
     }
-    #viewer {
-        margin-top: 35px;
-        font-size: 15px;
-        margin-left: 20px;
+    #viwer {
+        left: auto;
+        top: auto;
     }
 }
 
@@ -161,7 +160,7 @@ li a:hover {
         margin: 30px auto;
         display: block;
     }
-    #viewer {
+    #viwer {
         left: auto;
         top: auto;
         font-size: 16px;
