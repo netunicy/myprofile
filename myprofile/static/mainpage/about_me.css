@@ -121,11 +121,9 @@ li a:hover {
         display: block;
     }
     #viewer {
-        left: 10px;
-        top: auto; 
-        padding: 8px;
-        font-size: 14px;
-        width: calc(100% - 20px);
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: 20px;
     }
 }
 
