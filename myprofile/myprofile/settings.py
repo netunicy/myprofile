@@ -57,19 +57,19 @@ WSGI_APPLICATION = 'myprofile.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
-        'LOCATION': 'view_counts_cache_table',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dc35719bkq8g42', 
+        'USER': 'u20u6mcjhghqfv',
+        'PASSWORD': 'pc9b2e6d50f50fde1be45aacdb0e55d845cdf1390987948a4443186e3f93663a9',
+        'HOST': 'ec2-54-154-255-225.eu-west-1.compute.amazonaws.com', 
+        'PORT': '5432',
+        'OPTIONS': {
+            'options': '-c timezone=Europe/Athens',
+            }
     }
 }
 
-# Password validation
-# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {

@@ -1,53 +1,49 @@
-from django.http import HttpResponse
-from django.shortcuts import render
-from django.template import loader
-from django.core.cache import cache
 
-view_counts = {
-  'homepage': 0,
-  'about_me': 0,
-  'education': 0,
-  'skills': 0,
-  'contact': 0,
-}
+from django.shortcuts import render
+from mainpage.models import PageView
+
 
 def homepage(request):
-  count = cache.get_or_set('homepage_count', 0)
-  cache.set('homepage_count', count + 1)
-    
+  viewer, created = PageView.objects.get_or_create(pk=1)
+  viewer.homepage_view_count += 1
+  viewer.save()
   context = {
-    'viewer': count + 1,
+    'viewer': viewer.homepage_view_count,
   }
   return render(request, "homepage.html",context)
 
 def about_me(request):
-  count = cache.get_or_set('about_me_count', 0)
-  cache.set('about_me_count', count + 1)
+  viewer, created = PageView.objects.get_or_create(pk=1)
+  viewer.about_me_view_count += 1
+  viewer.save()
   context = {
-    'viewer': count + 1,
+    'viewer': viewer.about_me_view_count,
   }
   return render(request, "about_me.html",context)
 
 def education(request):
-  count = cache.get_or_set('education_count', 0)
-  cache.set('education_count', count + 1)
+  viewer, created = PageView.objects.get_or_create(pk=1)
+  viewer.education_view_count += 1
+  viewer.save()
   context = {
-    'viewer': count + 1,
+    'viewer': viewer.education_view_count,
   }
   return render(request, "education.html",context)
 
 def skills(request):
-  count = cache.get_or_set('skills_count', 0)
-  cache.set('skills_count', count + 1)
+  viewer, created = PageView.objects.get_or_create(pk=1)
+  viewer.skills_view_count += 1
+  viewer.save()
   context = {
-    'viewer': count + 1,
+    'viewer': viewer.skills_view_count,
   }
   return render(request, "skills.html",context)
 
 def contact(request):
-  count = cache.get_or_set('contact_count', 0)
-  cache.set('contact_count', count + 1)
+  viewer, created = PageView.objects.get_or_create(pk=1)
+  viewer.contact_view_count += 1
+  viewer.save()
   context = {
-    'viewer': count + 1,
+    'viewer': viewer.contact_view_count,
   }
   return render(request, "contact.html",context)
