@@ -27,8 +27,11 @@ ul {
   
 li {
     float: left;
-    margin-bottom: 20px; /* Adds space between list items */
-    padding: 10px; /* Adds padding around the content */
+
+}
+
+.Education li {
+    padding: 10px;
 }
   
 li a {
