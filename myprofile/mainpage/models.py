@@ -41,7 +41,7 @@ class Contact(models.Model):
     linkedln=models.CharField(max_length=500,null=True,blank=True)
     phone=models.CharField(max_length=500,null=True,blank=True)
     class Meta:
-        verbose_name_plural = 'Skills'
+        verbose_name_plural = 'Contacts'
     
     def __str__(self):
         return self.title
