@@ -21,8 +21,8 @@
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
         <div class="Education">
+            <h1>{{title}}</h1>
             {% for i in data %}
-                <h1>{{title}}</h1>
                     <div class="text">
                         <p><b>{{i.sub_title}}</b></p>
                         <li>{{i.text}}</li><br>
