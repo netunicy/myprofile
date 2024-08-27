@@ -55,7 +55,7 @@ h1 {
 }
 
 .text li {
-    display: none;
+    display: inline-block;
     font-size: 18px;
     margin-bottom: 20px;
 }
