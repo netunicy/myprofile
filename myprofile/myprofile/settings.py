@@ -86,7 +86,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js'
+TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/ag8vqk0yg4bg6ttbzbmwo2f56bhj1nbapvzl5josb5zx5ssv/tinymce/7/tinymce.min.js'
 TINYMCE_DEFAULT_CONFIG = {
     "height": "600px",
     "width": "900px",
