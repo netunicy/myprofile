@@ -90,8 +90,9 @@ AUTH_PASSWORD_VALIDATORS = [
 TINYMCE_DEFAULT_CONFIG = {
     "height": "600px",
     "width": "960px",
-    "plugins": ("advlist autolink lists link image charmap print preview anchor searchreplace visualblocks code "
-                "fullscreen insertdatetime media table paste help wordcount spellchecker"),
+    "plugins": ("advlist autolink lists link image charmap print preview anchor "
+                "searchreplace visualblocks code fullscreen insertdatetime media "
+                "table paste help wordcount spellchecker"),
     "toolbar": ("undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | "
                 "alignleft aligncenter alignright alignjustify | outdent indent | numlist bullist checklist | "
                 "forecolor backcolor casechange permanentpen formatpainter removeformat | pagebreak | charmap "
