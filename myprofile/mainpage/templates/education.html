@@ -24,7 +24,7 @@
             {% for i in data %}
                 <h1>{{i.title}}</h1>
                     <div class="text">
-                        {{i.text}}
+                        {{i.text|linebreaks}}
                     </div>
             {% endfor %}
         </div>
