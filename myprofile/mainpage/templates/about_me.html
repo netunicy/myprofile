@@ -23,22 +23,14 @@
     <div>
         <img class="photo" src="https://res.cloudinary.com/hewckvlra/image/upload/v1720640588/cpitris_aazgmf.png" alt="Charalambos Pitris">
     </div>
-        <h1>About Me</h1>
-        <div class="text">
-            <p>My name is Charalambos Pitris. I was born in Cyprus in 1983, in the Nicosia district, and grew up in the village of Geri. My parents were refugees from the village of Assia in the Famagusta district following the coup by the Athens junta and EOKA B, and the subsequent Turkish invasion in 1974.</p>
-            <p>During my childhood, I attended B Primary School of Geri and later Platy Gymnasium in Aglantzia. At the age of 14, I left school to pursue a technical career as a panel beater, a profession I continued until I was 24 years old.</p>
-            <p>After completing my military service, I decided to further my education by enrolling in evening school to earn both my secondary school and high school diplomas. For four years, I diligently balanced my nighttime studies with my daytime job as a panel beater at the BMW dealership.</p>
-            <p>In 2007, I took the nationwide exams and secured a place in the Department of Education Sciences at the University of Cyprus.</p>
-            <p>One semester after graduating from the University of Cyprus, I moved to the United Kingdom as an economic migrant in search of better employment opportunities.</p>
-            <p>In London, I began working part-time at the Greek Orthodox School of the Cypriot Community as an hourly employee and also took on a role as a text editor at the Parikiaki newspaper.</p>
-            <p>During my five-year residency in London, I volunteered as an organizational coordinator for the 2013 Cypriot presidential elections for AKEL Britain, achieving positive results. Some comrades entrusted me with a nomination for the position of organizational secretary of the branch. Following my election, I collaborated with numerous volunteers for the next four years to achieve the branch's objectives.</p>
-            <p>During this period, I encountered numerous internal party conflicts with members of the branch secretariat on various issues. These included Brexit (where they wanted to make decisions disregarding the party's policy in Cyprus), the student building of Proodeftiki in London (they wanted to rent it out, ignoring its political function), the maintenance of the community center (they opposed improvements and focused solely on the removal of a specific individual), the Wine Festival (where we spent thousands of euros without generating any revenue), and the transparency of the branch's finances (they resisted financial transparency within the District Committee).</p>
-            <p>In 2016, during our local party meetings where members were proposing candidates for the new District Committee, the former Organizational Secretary of the Branch urged other members to vote against my candidacy and have me removed from election for the new District Committee.</p>
-            <p>Returning to Cyprus in 2017, I worked as a self-employed professional in the full-day schools of the Ministry of Education until 2021. Concurrently, I also worked in car workshops as a panel beater. In 2021, I joined Cablenet, where I worked in sales and customer service until 2023.</p>
-            <p>Currently, I am pursuing undergraduate studies in Computer Science and postgraduate studies in Education and Technologies in Distance Teaching and Learning Systems – Educational Sciences (ETA), part-time at the Hellenic Open University. Concurrently, as a self-employed professional, I undertake projects for clients in website and application development. My expertise includes Python, Django, HTML5, CSS, and GUI interfaces using Tkinter in Python.</p>
+        {% for i in data %}
+            <h1>{{i.title}}</h1>
+                <div class="text">
+                    <p>{{i.text}}</p>
             
-        </div>
-        <h2 id='viwer'>Views: {{viewer}}</h2>
+                </div>
+            <h2 id='viwer'>Views: {{viewer}}</h2>
+        {% endif %}
 </body>
 </html>
 {% endblock content %}

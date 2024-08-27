@@ -1,6 +1,7 @@
 
 from django.shortcuts import render
 from mainpage.models import PageView
+from .models import About_me,Education,Skills,Contact
 
 
 def homepage(request):
@@ -14,10 +15,12 @@ def homepage(request):
 
 def about_me(request):
   viewer, created = PageView.objects.get_or_create(pk=1)
+  data=About_me.objects.all().values()
   viewer.about_me_view_count += 1
   viewer.save()
   context = {
     'viewer': viewer.about_me_view_count,
+    'data':data,
   }
   return render(request, "about_me.html",context)
 
