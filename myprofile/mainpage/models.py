@@ -24,7 +24,7 @@ class Education(models.Model):
         verbose_name_plural = 'Education'
     
     def __str__(self):
-        return self.title
+        return self.sub_title
 class Skills(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
     text=models.TextField(max_length=10000,null=True,blank=True)
