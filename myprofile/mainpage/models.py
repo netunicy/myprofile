@@ -1,5 +1,4 @@
 from django.db import models
-from tinymce.models import HTMLField
 
 class PageView(models.Model):
     
@@ -11,7 +10,7 @@ class PageView(models.Model):
 
 class About_me(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
-    text=HTMLField(null=True,blank=True)
+    text=models.TextField(max_length=10000, null=True,blank=True)
     class Meta:
         verbose_name_plural = 'About me'
     
@@ -19,7 +18,7 @@ class About_me(models.Model):
         return self.title
 class Education(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
-    text=HTMLField(null=True,blank=True)
+    text=models.TextField(max_length=10000,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Education'
     
@@ -27,7 +26,7 @@ class Education(models.Model):
         return self.title
 class Skills(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
-    text=HTMLField(null=True,blank=True)
+    text=models.TextField(max_length=10000,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Skills'
     
