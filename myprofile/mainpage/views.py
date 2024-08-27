@@ -28,12 +28,14 @@ def education(request):
   viewer, created = PageView.objects.get_or_create(pk=1)
   data=Education.objects.all().values()
   title=Education.objects.values_list('title')
+  for i in title:
+    name_title=i.title
   viewer.education_view_count += 1
   viewer.save()
   context = {
     'viewer': viewer.education_view_count,
     'data':data,
-    'title':title,
+    'title':name_title,
   }
   return render(request, "education.html",context)
 
