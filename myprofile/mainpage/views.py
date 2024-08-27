@@ -27,11 +27,13 @@ def about_me(request):
 def education(request):
   viewer, created = PageView.objects.get_or_create(pk=1)
   data=Education.objects.all().values()
+  title=Education.objects.values_list('title')
   viewer.education_view_count += 1
   viewer.save()
   context = {
     'viewer': viewer.education_view_count,
     'data':data,
+    'title':title,
   }
   return render(request, "education.html",context)
 
