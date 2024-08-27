@@ -87,6 +87,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/ag8vqk0yg4bg6ttbzbmwo2f56bhj1nbapvzl5josb5zx5ssv/tinymce/7/tinymce.min.js'
+TINYMCE_COMPRESSOR = False
 TINYMCE_DEFAULT_CONFIG = {
     "height": "600px",
     "width": "900px",
@@ -102,7 +103,6 @@ TINYMCE_DEFAULT_CONFIG = {
     "language": "el",  # Greek language
 }
 TINYMCE_SPELLCHECKER = True
-TINYMCE_COMPRESSOR = False
 
 
 
