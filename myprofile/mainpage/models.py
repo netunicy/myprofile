@@ -27,6 +27,7 @@ class Education(models.Model):
         return self.sub_title
 class Skills(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
+    sub_title=models.CharField(max_length=500,null=True,blank=True)
     text=models.TextField(max_length=10000,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Skills'
@@ -37,8 +38,8 @@ class Skills(models.Model):
 class Contact(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
     email=models.EmailField(max_length=500,null=True,blank=True)
-    facebook=models.CharField(max_length=500,null=True,blank=True)
-    linkedln=models.CharField(max_length=500,null=True,blank=True)
+    facebook=models.CharField(max_length=1000,null=True,blank=True)
+    linkedln=models.CharField(max_length=1000,null=True,blank=True)
     phone=models.CharField(max_length=500,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Contacts'

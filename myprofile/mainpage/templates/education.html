@@ -20,14 +20,12 @@
             <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1720642336/Charalambos-Pitris_ndbebm.pdf">Download CV</a></li>
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
-        <div class="Education">
-            <h1>{{title}}</h1>
-            <div class="text">
-                {% for i in data %}
-                    <p><b>{{i.sub_title}}</b></p>
-                    <li>{{i.text}}</li><br>
-                {% endfor %}
-            </div>
+        <h1>{{title}}</h1>
+        <div class="text">
+            {% for i in data %}
+                <p id='p'><b>{{i.sub_title}}</b></p>
+                <li>{{i.text}}</li></br>
+            {% endfor %}
         </div>
         <h2 id='viwer'>Views: {{viewer}}</h2>
     </body>

@@ -19,15 +19,17 @@
         <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1720642336/Charalambos-Pitris_ndbebm.pdf">Download CV</a></li>
         <li><a href="{% url 'contact' %}">Contact</a></li>
     </ul>
-        <h1>Contact</h1>
+        <h1>{{title}}</h1>
         <div class="text">
-            <p>Email: <a href="mailto:Cpitris@outlook.com">Cpitris@outlook.com</a><b></b>
+            {% for i in data %}
+                <p>Email: <a href="mailto:Cpitris@outlook.com">{{i.email}}</a><b></b>
             
-            <p><a href="https://www.facebook.com/charalambos.pitris">Facebook</a></p>
+                <p><a href={{i.facebook}}>Facebook</a></p>
         
-            <p><a href="https://www.linkedin.com/in/charalambos-pitris-b03512220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedln</a></p>
+                <p><a href={{i.linkedln}}>Linkedln</a></p>
             
-            <p>Phone: <a href="tel:0035799899041">00357-99899041</a><b></b>
+                <p>Phone: <a href="tel:0035799899041">{{i.phone}}</a><b></b>
+            {% endfor %}
         </div>
         <h2 id='viwer'>Views: {{viewer}}</h2>
     

@@ -41,8 +41,12 @@ def skills(request):
   viewer, created = PageView.objects.get_or_create(pk=1)
   viewer.skills_view_count += 1
   viewer.save()
+  data=Skills.objects.all().values()
+  title = Skills.objects.values_list('title', flat=True).first()
   context = {
     'viewer': viewer.skills_view_count,
+    'data':data,
+    'title':title,
   }
   return render(request, "skills.html",context)
 
@@ -50,7 +54,11 @@ def contact(request):
   viewer, created = PageView.objects.get_or_create(pk=1)
   viewer.contact_view_count += 1
   viewer.save()
+  data=Contact.objects.all().values()
+  title = Contact.objects.values_list('title', flat=True).first()
   context = {
     'viewer': viewer.contact_view_count,
+    'data':data,
+    'title':title,
   }
   return render(request, "contact.html",context)

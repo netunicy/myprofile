@@ -21,18 +21,9 @@
     </ul>
         <h1>Skills</h1>
         <div class="text">
-            <p><b>Primary Education:</b> <br>Comprehensive understanding and hands-on experience in teaching at the primary school level.</p>
-            <p><b>Qualified Teacher Status (QTS):</b> <br>Qualify to Teach in England</p>
-            <p><b>Python Programming:</b> <br>Proficient in Python, with experience in developing applications and automating tasks.</p>
-            <p><b>Django:</b> <br>Skilled in using the Django framework for building robust and scalable web applications.</p>
-            <p><b>HTML & CSS:</b> <br>Competent in creating and styling web pages with HTML and CSS, ensuring responsive and visually appealing designs.</p>
-            <p><b>Tkinter:</b> <br>Experienced in using Tkinter for developing graphical user interfaces (GUIs) in Python applications.</p>
-            <p><b>Distance Learning Technologies:</b> <br>Preparing to specialize in educational technologies and distance learning systems, focusing on modern educational sciences and teaching methodologies.</p>
-            <p><b>Adaptability and Lifelong Learning:</b> <br>Proven ability to effectively balance part-time studies with professional responsibilities, demonstrating exceptional time management skills and a dedicated commitment to continuous learning and self-improvement.</p>
-            <p><b>Effective Communication:</b> <br>Skilled in conveying complex ideas and concepts clearly and concisely, fostering open dialogue and collaboration within teams.</p>
-            <p><b>Problem-Solving:</b> <br>Proficient at analyzing challenges and implementing innovative solutions, leveraging creative thinking and resourcefulness to overcome obstacles.</p>
-            <p><b>Team Collaboration:</b> <br>Experienced in working collaboratively with diverse teams, fostering a positive and inclusive environment to achieve common goals and deliver high-quality results.</p>
-            <p><b>Leadership:</b> <br>Demonstrated leadership capabilities through mentoring and guiding peers, inspiring motivation and fostering a culture of excellence and accountability.</p>
+            {% for i in data %}
+                <p><b>{{i.title}}</b> <br>{{i.text}}</p>
+            {% endfor %}
         </div>
         <h2 id='viwer'>Views: {{viewer}}</h2>
 </body>
