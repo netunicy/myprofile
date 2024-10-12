@@ -81,6 +81,7 @@ h1 {
     padding: 10px;
     border-radius: 8px;
 }
+
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
         height: 118%;
@@ -112,7 +113,7 @@ h1 {
     }
 
     p {
-        font-size: 20px;
+        font-size: 16px;
     }
     #viwer {
         left: 14px;
