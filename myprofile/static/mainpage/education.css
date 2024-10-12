@@ -97,7 +97,7 @@ h1 {
     .text {
         margin-left: 5px;
         margin-right: 5px;
-        padding: 5px;
+        padding: 5px 5px;
     }
     
     ul {
