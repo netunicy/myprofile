@@ -100,19 +100,11 @@ h1 {
         margin-left: 10px;
     }
 
-    .text {
+    .text li {
         font-size: 16px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        padding: 5px;
-        width: 335px;
-        height: 530px;
     }
 
-    p {
+    #p {
         font-size: 16px;
     }
     #viwer {
