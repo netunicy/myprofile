@@ -84,37 +84,39 @@ h1 {
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
-        height: 200%;
-        width: auto;
+        height: auto;
+        width: 100%;
         margin: 0;
     }
 
     ul {
-        font-size: 18px;
-        margin: 15px;
-        margin-right: 20px;
+        font-size: 1.1rem; /* Relative font size */
+        margin: 1rem;
+        margin-right: 1.5rem;
     }
 
     h1 {
-        font-size: 25px;
-        margin-left: 10px;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
     }
+
     .text {
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 5px;
+        margin: 0 0.5rem; /* Simplified shorthand */
+        padding: 0.5rem;
     }
+
     .text li {
-        font-size: 18px;
+        font-size: 1.1rem; /* Match list item size */
     }
 
     #p {
-        font-size: 20px;
+        font-size: 1.25rem; /* Larger paragraph font */
     }
+
     #viwer {
-        left: 14px;
-        top:750px;
-        font-size: 18px;
+        left: 1rem;
+        top: 50vh; /* Position relative to viewport height */
+        font-size: 1.1rem;
     }
 }
 
