@@ -60,6 +60,8 @@ pip install django-ckeditor
 django-admin startproject mysite
 
 python -m venv venv
+.venv\Scripts\activate
+
 
 python manage.py runserver
 
