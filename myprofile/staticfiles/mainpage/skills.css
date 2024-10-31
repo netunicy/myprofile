@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: 200%;
+    height: 170%;
     width:100%;
     margin: 0;
 }
@@ -67,7 +67,7 @@ li a:hover {
   
 #viwer {
     left: 25px;
-    top: 1375px;
+    top: 1100px;
     position: absolute;
     background-color: white;
     color: black;
