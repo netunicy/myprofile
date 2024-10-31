@@ -1,4 +1,6 @@
 pip install Django
+py -m pip install Django==5.1.2
+python.exe -m pip install --upgrade pip
 pip install reportlab
 pip install timezones
 pip install whitenoise
@@ -14,6 +16,8 @@ pip install pip-date
 pip install postgres
 pip install psycopg2
 pip install Pillow
+pip install "pillow<11.0.0"
+
 pip install pylance
 pip install request-session
 pip install django-manifest
