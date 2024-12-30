@@ -30,7 +30,6 @@ class Skills(models.Model):
     text=models.TextField(max_length=10000,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Skills'
-        ordering = ['-id']
     
     def __str__(self):
         return self.title
