@@ -58,10 +58,10 @@ WSGI_APPLICATION = 'myprofile.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', 
-        'NAME': 'ddms4dp9nrd2vq',
-        'USER': 'u5pm6hksj3s3k3',
-        'PASSWORD': 'pfdb9acd56db0d9abea625f77fd2ed150ba4a61878b706e45ac7fec623db37864',
-        'HOST': 'c724r43q8jp5nk.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com', 
+        'NAME': 'd9d4j1asu66b4j',
+        'USER': 'uasshhebnq6jko',
+        'PASSWORD': 'p07cf56f14d97d9164111b8380d35671b5ae0764a64cbd04919f018f507a61271',
+        'HOST': 'clhtb6lu92mj2.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com', 
         'PORT': '5432',
         'OPTIONS': {
             'options': '-c timezone=Europe/Athens',
