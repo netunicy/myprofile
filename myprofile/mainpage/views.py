@@ -42,7 +42,7 @@ def skills(request):
   viewer.skills_view_count += 1
   viewer.save()
   data=Skills.objects.all().values()
-  title = Skills.objects.values_list('title', flat=True).first()
+  title = Skills.objects.values_list('title', flat=True).distinct()
   context = {
     'viewer': viewer.skills_view_count,
     'data':data,
