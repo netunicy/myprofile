@@ -25,11 +25,13 @@
         <h1>Skills</h1>
         <div class="text">
             {% for j in title %}
-                <b>{{ j.title }}</b>
+                <b>{{ title }}</b>
                 {% for i in data %}
-                    <ul>
-                        <li>{{ i.text }}</li><br>
-                    </ul>
+                    {% if j==i.title%}
+                        <ul>
+                            <li>{{ i.text }}</li><br>
+                        </ul>
+                    {% endif %}
                 {% endfor %}
             {% endfor %}
         </div>        
