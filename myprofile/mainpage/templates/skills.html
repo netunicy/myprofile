@@ -10,15 +10,18 @@
     <title>Skills</title>
 </head>
 <body>
-    
-    <ul class='ul'>
-        <li><a href="{% url 'home' %}">Home</a></li>
-        <li><a href="{% url 'about_me' %}">About Me</a></li>
-        <li><a href="{% url 'education' %}">Education</a></li>
-        <li><a href="{% url 'skills' %}">Skills</a></li>
-        <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1735593745/Charalambos-Pitris_8_kuxeel.pdf">Download CV</a></li>
-        <li><a href="{% url 'contact' %}">Contact</a></li>
-    </ul>
+
+
+    <div class='ul'>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about_me' %}">About Me</a></li>
+            <li><a href="{% url 'education' %}">Education</a></li>
+            <li><a href="{% url 'skills' %}">Skills</a></li>
+            <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1735593745/Charalambos-Pitris_8_kuxeel.pdf">Download CV</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </div>
         <h1>Skills</h1>
         <div class="text">
             {% for i in data %}
