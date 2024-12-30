@@ -47,6 +47,11 @@ ul {
     opacity: 0.6;
     border-radius: 10px;
 }
+
+.text ul {
+    font-size: 20px;
+    color: #000;
+}
   
 li {
     float: left;
