@@ -72,7 +72,7 @@ li a:hover {
   
 #viwer {
     left: 25px;
-    top: 1100px;
+    top: 1130px;
     position: absolute;
     background-color: white;
     color: black;
@@ -99,10 +99,14 @@ li a:hover {
         padding: 5px;
     }
     
-    ul {
+    .ul ul {
         font-size: 18px;
         margin: 15px;
         margin-right: 20px;
+    }
+    .text ul {
+        font-size: 18px;
+        color: #000;
     }
     #viwer {
         left: 12px;
@@ -131,7 +135,7 @@ li a:hover {
         padding: 10px;
     }
     
-    ul {
+    .ul ul {
         font-size: 20px;
         margin: 20px;
         margin-right: 25px;
