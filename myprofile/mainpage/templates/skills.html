@@ -22,7 +22,10 @@
         <h1>Skills</h1>
         <div class="text">
             {% for i in data %}
-                <p><b>{{i.title}}</b> <br>{{i.text}}</p>
+                <p><b>{{i.title}}</b> 
+                    <ul>
+                        <li>{{i.text}}</li>
+                    </ul>
             {% endfor %}
         </div>
         <h2 id='viwer'>Views: {{viewer}}</h2>
