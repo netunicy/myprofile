@@ -25,10 +25,12 @@
         <h1>Skills</h1>
         <div class="text">
             {% for i in data %}
-                <b>{{ title }}</b>
-                <ul>
-                    <li>{{ i.text }}</li>
-                </ul>
+                {% for j in title %}
+                    <b>{{ j.title }}</b>
+                    <ul>
+                        <li>{{ i.text }}</li>
+                    </ul>
+                {% endfor %}
             {% endfor %}
         </div>        
         <h2 id='viwer'>Views: {{viewer}}</h2>
