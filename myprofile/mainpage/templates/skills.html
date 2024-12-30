@@ -24,9 +24,9 @@
     </div>
         <h1>Skills</h1>
         <div class="text">
-            {% for i in data %}
-                {% for j in title %}
-                    <b>{{ j.title }}</b>
+            {% for j in title %}
+                <b>{{ j.title }}</b>
+                {% for i in data %}
                     <ul>
                         <li>{{ i.text }}</li>
                     </ul>
