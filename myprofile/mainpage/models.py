@@ -27,7 +27,6 @@ class Education(models.Model):
         return self.sub_title
 class Skills(models.Model):
     title=models.CharField(max_length=500,null=True,blank=True)
-    sub_title=models.CharField(max_length=500,null=True,blank=True)
     text=models.TextField(max_length=10000,null=True,blank=True)
     class Meta:
         verbose_name_plural = 'Skills'
