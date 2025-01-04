@@ -82,7 +82,7 @@ li a:hover {
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
-        height: 285%;
+        height: auto;
         width: auto;
         margin: 0;
     }
