@@ -85,7 +85,7 @@ h1 {
 
 @media only screen and (max-width: 500px) and (min-width: 280px) {
     html {
-        height: auto;
+        height: 100%;
         width: auto;
         margin: 0;
     }
