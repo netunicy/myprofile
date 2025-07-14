@@ -16,20 +16,51 @@
             <li><a href="{% url 'about_me' %}">About Me</a></li>
             <li><a href="{% url 'education' %}">Education</a></li>
             <li><a href="{% url 'skills' %}">Skills</a></li>
-            <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1735593745/Charalambos-Pitris_8_kuxeel.pdf">Download CV</a></li>
+            <li><a href="">Download CV</a></li>
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
     </div>
     <div>
-        <img class="photo" src="https://res.cloudinary.com/hewckvlra/image/upload/v1720640588/cpitris_aazgmf.png" alt="Charalambos Pitris">
+        <img class="photo" src="https://res.cloudinary.com/hotitu8ux/image/upload/v1752535097/unnamed_uurrjk.jpg" alt="Charalambos Pitris">
     </div>
-        {% for i in data %}
-            <h1>{{i.title}}</h1>
-                <div class="text">
-                    <p>{{i.text|linebreaks}}</p>
-                </div>
-            <h2 id='viwer'>Views: {{viewer}}</h2>
-        {% endfor %}
+        <h1>About Me</h1>
+            <div class="text">
+                <p>I'm Charalambos Pitris, a primary school teacher with a strong interest in software development.</p>
+
+                <p>I studied Primary Education at the University of Cyprus (2007–2011) and have worked in both Cyprus and the UK.</p> 
+                <p>My teaching journey began in Greek schools in London (2012–2013), and from 2018 to 2025, I worked in All-Day Primary 
+                    Schools under the Ministry of Education, Sport and Youth in Cyprus. I am currently employed on contract in a public primary school within the Ministry.</p>
+
+                <p>Alongside my work in education, I have grown as a self-taught programmer, focusing on web and software development.
+                    I work with technologies such as Python, Django, Kivy, HTML, CSS, SQL, and deploy applications using Heroku. 
+                    My projects rely on PostgreSQL for robust, secure, and scalable database management.</p>
+
+                <p><b>Some of my projects:</b></p>
+
+                <p>🌐 <a href="https://cpitris.com">C.Pitris profile</a> – An informational site featuring articles, links, and downloadable resources.</p>
+
+                <p>💻 <a href="https://cpsoftwarecreation.com">C.P Software Creations</a> – A content-driven page with texts, useful links, a contact form, and file upload functionality.</p>
+
+                <p>🎓 cpnetuni.com – My most ambitious project: <strong> A secure and feature-rich e-learning platform, currently under development. 
+                    Built with Django and PostgreSQL, the platform includes:</strong></p>  
+                <ul>
+                    
+                    <li><a><b>Full user authentication:</b> login, logout, password reset, username recovery/change, and email-based account activation.</a></li>
+
+                    <li><a><b>Encrypted video playback via secure, time-sensitive URLs</b></a></li>
+
+                    <li><a><b>Stripe integration for online payments, including cart and order tracking</b></a></li>
+
+                    <li><a><b>Video usage analytics to monitor viewing frequency and duration</b></a></li>
+
+                    <li><a><b>A modular, scalable backend with reliable data handling</b></a></li>
+                </ul>
+                <p>The platform is not yet published, as educational content is still being prepared.</p>
+                <p>My goal is to launch cpnetuni.com with a complete set of materials and to offer all content at affordable prices, making high-quality learning accessible to everyone.</p>
+                <p>All of my work is available publicly on GitHub: <a href="https://github.com/netunicy">My profile</a>
+                <p>I’m passionate about combining education and technology, aiming to build tools that support students, educators, and everyday users alike.</p>
+            </div>
+    <!--<h2 id='viwer'>Views: {{viewer}}</h2>-->
 </body>
 </html>
 {% endblock content %}

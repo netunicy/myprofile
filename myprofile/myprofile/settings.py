@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'e1234ce5ba6bd70891011c12d131415aff16bb17eeadbf18b1920d'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1:8000','localhost','cpitris-07dacdcb049a.herokuapp.com','cpitris.com','www.cpitris.com']
 
@@ -56,16 +56,9 @@ WSGI_APPLICATION = 'myprofile.wsgi.application'
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql', 
-        'NAME': 'd9d4j1asu66b4j',
-        'USER': 'uasshhebnq6jko',
-        'PASSWORD': 'p07cf56f14d97d9164111b8380d35671b5ae0764a64cbd04919f018f507a61271',
-        'HOST': 'clhtb6lu92mj2.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com', 
-        'PORT': '5432',
-        'OPTIONS': {
-            'options': '-c timezone=Europe/Athens',
-        }
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": os.path.join(BASE_DIR,'db.sqlite3'),
     }
 }
 
@@ -112,14 +105,14 @@ STATICFILES_DIRS = [
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
-SECURE_HSTS_SECONDS= 31536000
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
+#SECURE_SSL_REDIRECT = True
+#SECURE_HSTS_SECONDS= 31536000
+#SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+#SECURE_HSTS_PRELOAD = True
+#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+#SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
