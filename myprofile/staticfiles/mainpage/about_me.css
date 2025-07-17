@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://res.cloudinary.com/hewckvlra/image/upload/v1720642099/boat_pg_uiw7uk.png");
+    background-image: url("https://res.cloudinary.com/hotitu8ux/image/upload/v1752531190/1000010434_ukoh1c.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body {
 }
 
 html {
-    height: 115%;
+    height: auto;
     width:100%;
     margin: 0;
 }
@@ -19,8 +19,12 @@ h1 {
     margin-left: 20px;
 }
 
+p {
+    margin-left: 10px;
+    margin-right: 25px;
+}
 .text {
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
     font-size: 20px;
     margin-top: 50px;
@@ -35,20 +39,23 @@ h1 {
     opacity: 0.7;
 }
 
-ul {
+.navbar ul {
     font-family:'Times New Roman', Times, serif;
-    list-style-type: none;
-    font-size: 25px;
+    list-style-type:none;
+    font-size: 20px;
     margin-left: 25px;
-    margin-right: 650px;
+    margin-right: 50px;
     padding: 5px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    opacity: 0.6;
     border-radius: 10px;
 }
+
+.text ul {
+    list-style-type: disc;
+}
   
-li {
+.navbar li {
     float: left;
 }
   
@@ -61,7 +68,6 @@ li a {
 }
   
 li a:hover {
-    opacity: 0.5;
     color:rgb(0, 0, 0);
 }
   

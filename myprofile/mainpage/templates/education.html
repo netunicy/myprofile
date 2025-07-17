@@ -17,17 +17,19 @@
             <li><a href="{% url 'about_me' %}">About Me</a></li>
             <li><a href="{% url 'education' %}">Education</a></li>
             <li><a href="{% url 'skills' %}">Skills</a></li>
-            <li><a href="https://res.cloudinary.com/hewckvlra/image/upload/v1735593745/Charalambos-Pitris_8_kuxeel.pdf">Download CV</a></li>
+            <li><a href="">Download CV</a></li>
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
-        <h1>{{title}}</h1>
+        <h1>Education</h1>
         <div class="text">
-            {% for i in data %}
-                <p id='p'><b>{{i.sub_title}}</b></p>
-                <li>{{i.text}}</li></br>
-            {% endfor %}
+            <p id='p'><b>University of Cyprus</b></p>
+            <li>Teacher in Primary Schools - 2007-2011</li></br>
+            <p id='p'><b>Open University of Cyprus</b></p>
+            <li>MSc in Educational Sciences – 2025 to present</li></br>
+            <p id='p'><b>High school - Archiepiskopou Makariou III</b></p>
+            <li>2003-2007</li></br>
         </div>
-        <h2 id='viwer'>Views: {{viewer}}</h2>
+        <!--<h2 id='viwer'>Views: {{viewer}}</h2>-->
     </body>
 </html>
 {% endblock content %}
