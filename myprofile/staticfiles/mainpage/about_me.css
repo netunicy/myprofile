@@ -120,7 +120,13 @@ p {
         margin: 15px;
         margin-right: 20px;
     }
-    
+
+    .navbar ul {
+        font-size: 18px;
+        margin: 15px;
+        margin-right: 20px;
+    }
+
     .photo {
         position: relative;
         right: auto;
@@ -162,7 +168,11 @@ p {
         margin: 20px;
         margin-right: 25px;
     }
-    
+    .navbar ul {
+        font-size: 18px;
+        margin: 15px;
+        margin-right: 20px;
+    }
     .photo {
         position: relative;
         right: auto;
