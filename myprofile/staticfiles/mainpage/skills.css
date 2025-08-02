@@ -93,9 +93,10 @@ li a:hover {
     }
     
     .text {
+        height: 73rem;
         font-size: 16px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         padding: 5px;
     }
     
@@ -107,6 +108,7 @@ li a:hover {
     .text ul {
         font-size: 18px;
         color: #000;
+        margin: 5px;
     }
     #viwer {
         left: 12px;
@@ -118,7 +120,7 @@ li a:hover {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 520%;
+        height: 320%;
         width: auto;
         margin: 0;
     }
@@ -144,5 +146,63 @@ li a:hover {
         left: 14px;
         top: auto;
         font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    body {
+        background-image: url("https://res.cloudinary.com/hotitu8ux/image/upload/v1752531190/1000010434_ukoh1c.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    html {
+        height: 170%;
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-size: 45px;
+        margin-left: 40px;
+    }
+
+    .text {
+        font-size: 24px;
+        margin-top: 70px;
+        margin-right: 450px;
+        margin-left: 40px;
+        padding: 20px 25px;
+        border-radius: 12px;
+        opacity: 0.75;
+        line-height: 1.7;
+    }
+
+    .ul ul {
+        font-size: 28px;
+        margin-left: 35px;
+        margin-right: 1000px;
+        padding: 10px;
+        border-radius: 12px;
+        opacity: 0.7;
+    }
+
+    .text ul {
+        font-size: 25px;
+    }
+
+    li a {
+        font-size: 24px;
+        padding: 16px 20px;
+    }
+
+    #viwer {
+        left: 40px;
+        top: 1500px;
+        padding: 15px 20px;
+        font-size: 22px;
+        border-radius: 10px;
     }
 }

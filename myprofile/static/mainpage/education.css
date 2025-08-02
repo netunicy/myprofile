@@ -133,7 +133,7 @@ h1 {
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
     html {
-        height: 260%;
+        height: 150%;
         width: auto;
         margin: 0;
     }
@@ -161,4 +161,70 @@ h1 {
         font-size: 16px;
     }
     
+}
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    body {
+        background-image: url("https://res.cloudinary.com/hotitu8ux/image/upload/v1752531190/1000010434_ukoh1c.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    ul {
+        font-size: 28px;
+        margin-left: 40px;
+        margin-right: 850px;
+        padding: 10px;
+        border-radius: 12px;
+        opacity: 0.7;
+    }
+
+    li a {
+        font-size: 26px;
+        padding: 18px 20px;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-size: 45px;
+        margin-left: 40px;
+    }
+
+    .text li {
+        font-size: 25px;
+    }
+
+    .text {
+        width: 800px;
+        height: auto;
+        min-height: 350px;
+        font-size: 22px;
+        margin-left: 40px;
+        padding: 20px;
+        border-radius: 12px;
+        opacity: 0.75;
+        line-height: 1.6;
+    }
+
+    #p {
+        font-size: 28px;
+        padding: 12px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    #viwer {
+        left: 40px;
+        top: 800px;
+        padding: 15px 20px;
+        font-size: 22px;
+        border-radius: 10px;
+    }
 }
