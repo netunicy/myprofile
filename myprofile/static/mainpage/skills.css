@@ -94,6 +94,7 @@ li a:hover {
     }
     
     .text {
+        height: auto;
         font-size: 16px;
         margin-left: 5px;
         margin-right: 5px;
