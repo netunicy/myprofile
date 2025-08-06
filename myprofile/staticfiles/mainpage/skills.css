@@ -94,12 +94,10 @@ li a:hover {
     }
     
     .text {
-        height: 73rem;
         font-size: 16px;
         margin-left: 10px;
         margin-right: 10px;
         padding: 5px;
-        height: 72rem;
     }
     
     .ul ul {
