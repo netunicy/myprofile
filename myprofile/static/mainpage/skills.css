@@ -123,7 +123,7 @@ li a:hover {
 @media only screen and (max-width: 1024px) and (max-height: 600px) and (orientation: landscape) {
 
     html {
-        height: 320%;
+        height: auto;
         width: auto;
         margin: 0;
     }
