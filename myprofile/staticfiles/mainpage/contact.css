@@ -81,7 +81,7 @@ p {
     padding: 10px;
     border-radius: 8px;
 }
-@media only screen and (max-width: 500px) and (min-width: 280px) {
+@media only screen and (max-width: 768px) and (orientation: portrait) {
     html {
         height: 100%;
         width: 100%;
@@ -123,9 +123,9 @@ p {
     }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 501px) {
+@media only screen and (max-width: 1024px) and (max-height: 600px) and (orientation: landscape) {
     html {
-        height: 150%;
+        height: auto;
         width: auto;
         margin: 0;
     }
